@@ -1,0 +1,36 @@
+<!-- radio botton -->
+<!-- select tag -->
+<!-- textarea tag -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inputs demo</title>
+</head>
+<body>
+<label>Radio button<input type="radio"></label> <!-- if the usr has only one choice.Ex:gender-->
+<label>Checkbox<input type="checkbox"> </label><!-- if the user has multiple choices.EX -->
+<br><br>
+
+<form>
+	Do you prefer dogs or cats?
+	<label for="dogs">Dogs</label>
+	<input type="radio" name="petchoice" value="DOGS" id="dogs">
+	<label for="cats">Cats</label>
+	<input type="Radio" name="petchoice" value="CATS" id="cats">
+	<button>Go!</button>
+
+</form> <br><br>
+
+<form>
+	<p>what's your current mood?</p>
+	<select name="mood">
+		<option value="Happy">:)</option>
+		<option value="Neutral">:|</option>
+		<option value="sad">:(</option>
+	</select>
+	<input type="text" name="paragraph">
+	<textarea rows="2" columns="10"></textarea>
+	<button>Go!</button>
+</form>
+</body>
+</html>

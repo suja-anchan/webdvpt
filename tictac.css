@@ -1,0 +1,29 @@
+table{
+	margin: auto;
+}
+td {
+	width: 100px;
+	height: 100px;
+
+	
+
+}
+.v {
+	border-right:1px black solid; 
+	border-left:1px black solid;
+
+}
+/*.m{
+	border:1px black solid;
+}*/
+/*.s{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.s2{
+	border
+}*/
+.s{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
